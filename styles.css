@@ -22,8 +22,11 @@ a{
 	font-size:25px;
 	display:flex;
 	justify-content:space-between;
+	a{
+		font-size:20px;
+	}
 }
-.fa-brands{
+.media-icons{
 	padding:0px 10px;
 }
 .container{
