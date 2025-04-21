@@ -1,3 +1,6 @@
+.container1{
+	min-width:320px;
+}
 h4{
 	padding-left:20%;
 	font-size:18px;
@@ -38,7 +41,7 @@ a{
 	grid-template-columns:repeat(4,1fr);
 	justify-content:space-between;
 }
-@media screen and (max-width: 450px){
+@media screen and (min-width: 450px){
 	.container{
 		display:flex;
 		flex-direction:column;
